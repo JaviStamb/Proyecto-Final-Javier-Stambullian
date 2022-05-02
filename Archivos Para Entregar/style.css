@@ -1,0 +1,314 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*Cabecera*/
+.main-header {
+    background-color: #753e48;
+
+}
+
+.title {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.vinculo-texto {
+    text-decoration: none;
+    color: #ffffff
+}
+
+
+.nav-bar {
+    padding: 30px;
+    background-color: #d3dfd9;
+}
+
+.nav-bar-menu{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #1F3D70;
+}
+
+ul li a:hover{
+    text-decoration: underline;
+}
+
+body {
+    background-color: rgb(236, 221, 221);
+}
+
+/*Fin cabecera*/
+.main-page {
+    background-color: #aac2d4;
+    margin: 10px;
+}
+
+/*Pagina principal*/
+.grid {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(2, 1fr) ;
+}
+
+.grid-video {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+
+
+.imagen-index {
+    width: 600px;
+    height: 300px;
+    border: 1px solid black;
+    font-size: 1.34rem;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(129, 129, 185);
+}
+
+
+.imagen {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.imagen img {
+    width: 100%;
+    height: 100%;    
+}
+
+.texto {
+    text-align: justify;
+}
+
+
+
+.pie-de-pagina {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(63, 62, 62);
+    padding: 20px;
+}
+
+.fa-brands {
+    color: white;
+}
+
+ /* Premier League Pagina*/
+
+ .imagen-premier {
+    width: 600px;
+    height: 300px;
+    font-size: 1.34rem;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(111, 111, 126);
+}
+
+
+/* Fa Cup Pagina */
+
+.imagen-facup {
+    width: 600px;
+    height: 300px;
+    font-size: 1.34rem;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(150, 71, 139, 0.548)
+}
+
+/* Carabao Cup Pagina */
+
+.imagen-carabaocup {
+    width: 600px;
+    height: 300px;
+    font-size: 1.34rem;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(5, 44, 5, 0.548)
+}
+
+/* Championship Pagina */
+
+.imagen-championship {
+    width: 600px;
+    height: 300px;
+    font-size: 1.34rem;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(60, 153, 160, 0.548)
+}
+
+
+
+/* Responsive Design */
+
+@media (max-width:450px) {
+
+    .grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-bar-menu {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+    }
+
+    .nav-bar-menu li a {
+        font-size: 20px;
+    }
+
+    .imagen-index {
+        width: 400px;
+        height: 250px;
+    }
+
+    .imagen {
+        width: 100%;
+        height: 63%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .imagen img {
+        width: 100%;
+        height: 100%;    
+    }
+    
+    .texto {
+        text-align: justify;
+        font-size: 1.085rem;
+    }
+
+    .grid-video {
+        display: flex;
+        flex-direction: column;
+    }
+
+    iframe {
+        width: 420px;
+        height: 319px;
+        padding-bottom: 5px;
+    }
+
+    .redes {
+        padding: 0px 10px ;
+    }
+/* Premier Responsive */
+    .imagen-premier {
+        width: 400px;
+        height: 250px;
+    }
+/* Fa cup responsive */
+    .imagen-facup {
+        width: 400px;
+        height: 250px;
+    }
+/* Carabaocup responsive */
+    .imagen-carabaocup {
+        width: 400px;
+        height: 250px;
+    }   
+/* Championship responsive */
+    .imagen-championship {
+        width: 400px;
+        height: 250px;
+    }
+}
+
+
+/* tablet */
+
+@media (min-width:451px) and (max-width:960px) {
+    
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .imagen-index {
+        width: 430px;
+        height: 270px;
+    }
+
+    .imagen {
+        width: 100%;
+        height: 63%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .imagen img {
+        width: 100%;
+        height: 100%;    
+    }
+    
+    .texto {
+        text-align: justify;
+        font-size: 1.085rem;
+    }
+
+    .grid-video {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    iframe {
+        width: 420px;
+        height: 319px;
+        padding-bottom: 5px;
+    }
+
+    .redes {
+        padding: 0px 10px ;
+    }
+/* Premier Responsive */
+    .imagen-premier {
+        width: 430px;
+        height: 270px;
+    }
+
+    /* Facup Responsive */
+    .imagen-facup {
+        width: 430px;
+        height: 270px;
+    }
+
+    /* Carabaocup responsive */
+
+    .imagen-carabaocup {
+        width: 430px;
+        height: 270px;
+    }
+
+    .imagen-championship {
+        width: 400px;
+        height: 250px;
+    }
+
+}

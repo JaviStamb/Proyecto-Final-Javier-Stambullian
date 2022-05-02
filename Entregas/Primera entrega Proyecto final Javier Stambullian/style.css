@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*Cabecera*/
+.main-header {
+    background-color: #753e48;
+
+}
+
+.title {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.vinculo-texto {
+    text-decoration: none;
+    color: #ffffff
+}
+
+
+.nav-bar {
+    padding: 30px;
+    background-color: #d3dfd9;
+}
+
+.nav-bar-menu{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #1F3D70;
+}
+
+body {
+    background-color: rgb(236, 221, 221);
+}
+
+/*Fin cabecera*/
+.main-page {
+    background-color: #aac2d4;
+    margin: 10px;
+}
+
+/*Pagina principal*/
+
+img {
+    width: 400px;
+    height: 200px;
+}
+
+.imagen-index {
+    border: 1px solid black;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(129, 129, 185);
+}
+
+.premier-container {
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+}
+
+/*Videos secundarios*/
+.videos{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(146, 134, 134);
+}
+
+.pie-de-pagina {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(63, 62, 62);
+    padding: 20px;
+}
+
+.fa-brands {
+    color: white;
+}
+
+ /* Premier League */
+
+ .imagen-premier {
+    font-size: 25px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(111, 111, 126);
+}
+
+/* Fa Cup */
+
+.imagen-facup {
+    font-size: 25px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(150, 71, 139, 0.548)
+}
+
+/* Carabao Cup */
+
+.imagen-carabaocup {
+    font-size: 25px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(5, 44, 5, 0.548)
+}
+
+/* Championship */
+
+.imagen-championship {
+    font-size: 25px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(60, 153, 160, 0.548)
+}
