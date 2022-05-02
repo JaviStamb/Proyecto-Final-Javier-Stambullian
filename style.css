@@ -22,13 +22,33 @@
     color: #ffffff
 }
 
+.vinculo-texto:hover{
+    animation: Titulo 2s;
+}
+
+/* Keyframe Titulo */
+
+@keyframes Titulo {
+    0% {
+        text-decoration: none;
+        color: #ffffff
+    }
+
+    100% {
+        font-size: 70px;
+        text-decoration: underline;
+    }
+
+
+}
+
 
 .nav-bar {
     padding: 30px;
     background-color: #d3dfd9;
 }
 
-.nav-bar-menu{
+.nav-bar-menu {
     display: flex;
     justify-content: space-around;
     list-style: none;
@@ -41,7 +61,7 @@ a {
     color: #1F3D70;
 }
 
-ul li a:hover{
+ul li a:hover {
     text-decoration: underline;
 }
 
@@ -59,7 +79,7 @@ body {
 .grid {
     display: grid;
     grid-template-rows: auto;
-    grid-template-columns: repeat(2, 1fr) ;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .grid-video {
@@ -80,6 +100,20 @@ body {
     margin: 10px;
     padding: 10px;
     background-color: rgb(129, 129, 185);
+    justify-content: center;
+    transition: all 3s ease-out;
+}
+
+.imagen-index-right {
+    width: 600px;
+    height: 300px;
+    border: 1px solid black;
+    font-size: 1.34rem;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(129, 129, 185);
+    justify-content: center;
+    transition: all 3s ease-out;
 }
 
 
@@ -87,12 +121,23 @@ body {
     width: 100%;
     height: 70%;
     display: flex;
-    justify-content: center;
+}
+
+.imagen-index:hover {
+    transform: scale(1.1) translateX(300px);
+    background-color: rgb(62, 62, 102);
+
+}
+
+.imagen-index-right:hover {
+    transform: scale(1.1) translateX(-300px);
+    background-color: rgb(62, 62, 102);
+
 }
 
 .imagen img {
     width: 100%;
-    height: 100%;    
+    height: 100%;
 }
 
 
@@ -114,9 +159,9 @@ body {
     color: white;
 }
 
- /* Premier League Pagina*/
+/* Premier League Pagina*/
 
- .imagen-premier {
+.imagen-premier {
     width: 600px;
     height: 300px;
     font-size: 1.34rem;
@@ -187,6 +232,25 @@ body {
     .imagen-index {
         width: 400px;
         height: 250px;
+        transition: all 3s ease-out;
+    }
+
+    .imagen-index:hover {
+        transform: scale(1.05) translateX(3px);
+        background-color: rgb(62, 62, 102);
+
+    }
+
+    .imagen-index-right {
+        width: 400px;
+        height: 250px;
+        transition: all 3s ease-out;
+    }
+
+    .imagen-index-right:hover {
+        transform: scale(1.05) translateX(3px);
+        background-color: rgb(62, 62, 102);
+
     }
 
     .imagen {
@@ -195,12 +259,12 @@ body {
         display: flex;
         justify-content: center;
     }
-    
+
     .imagen img {
         width: 100%;
-        height: 100%;    
+        height: 100%;
     }
-    
+
     .texto {
         text-align: justify;
         font-size: 1.085rem;
@@ -218,24 +282,28 @@ body {
     }
 
     .redes {
-        padding: 0px 10px ;
+        padding: 0px 10px;
     }
-/* Premier Responsive */
+
+    /* Premier Responsive */
     .imagen-premier {
         width: 400px;
         height: 250px;
     }
-/* Fa cup responsive */
+
+    /* Fa cup responsive */
     .imagen-facup {
         width: 400px;
         height: 250px;
     }
-/* Carabaocup responsive */
+
+    /* Carabaocup responsive */
     .imagen-carabaocup {
         width: 400px;
         height: 250px;
-    }   
-/* Championship responsive */
+    }
+
+    /* Championship responsive */
     .imagen-championship {
         width: 400px;
         height: 250px;
@@ -246,7 +314,7 @@ body {
 /* tablet */
 
 @media (min-width:451px) and (max-width:960px) {
-    
+
     .grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -255,6 +323,24 @@ body {
     .imagen-index {
         width: 430px;
         height: 270px;
+        transition: all 3s ease-out;
+    }
+
+    .imagen-index-right {
+        width: 430px;
+        height: 270px;
+        transition: all 3s ease-out;
+    }
+
+    .imagen-index:hover {
+        transform: scale(1.1) translateX(200px);
+        background-color: rgb(62, 62, 102);
+    }
+
+    .imagen-index-right:hover {
+        transform: scale(1.1) translateX(-200px);
+        background-color: rgb(62, 62, 102);
+
     }
 
     .imagen {
@@ -263,12 +349,12 @@ body {
         display: flex;
         justify-content: center;
     }
-    
+
     .imagen img {
         width: 100%;
-        height: 100%;    
+        height: 100%;
     }
-    
+
     .texto {
         text-align: justify;
         font-size: 1.085rem;
@@ -286,9 +372,10 @@ body {
     }
 
     .redes {
-        padding: 0px 10px ;
+        padding: 0px 10px;
     }
-/* Premier Responsive */
+
+    /* Premier Responsive */
     .imagen-premier {
         width: 430px;
         height: 270px;
