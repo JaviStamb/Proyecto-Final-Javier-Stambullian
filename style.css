@@ -126,7 +126,6 @@ body {
 .imagen-index:hover {
     transform: scale(1.1) translateX(300px);
     background-color: rgb(62, 62, 102);
-
 }
 
 .imagen-index-right:hover {
