@@ -1,55 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FutNews</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="shortcut icon" href="Imagenes/icono.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/7090bfacb4.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 </head>
+
 <body>
-<!--Inicio cabecera-->
+    <!--Inicio cabecera-->
     <header class="main-header">
         <div class="title">
-            <a href="index.html" class="vinculo-texto">FutNews                
+            <a href="index.html" class="vinculo-texto">FutNews
             </a>
         </div>
     </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="premierleague.html">Premier League</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="facup.html">Fa cup</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="carabaocup.html">Carabao Cup</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="championship.html">Championship</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!--Fin Cabecera-->
 
-    <nav class="nav-bar">
-        <ul class="nav-bar-menu">
-            <li>
-                <a href="premierleague.html" >Premier League</a>
-            </li>
-
-            <li>
-                <a href="facup.html">Fa Cup</a>
-            </li>
-
-            <li>
-                <a href="carabaocup.html" >Carabao Cup</a>
-            </li>
-
-            <li>
-                <a href="championship.html" >Championship</a>
-            </li>
-        </ul>
-    </nav>
-<!--Fin Cabecera-->
-
-<!--Inicio seccion principal-->
+    <!--Inicio seccion principal-->
     <div class="grid">
         <div class="imagen-index premier-container">
             <div class="imagen">
                 <img src="Imagenes/premier-league-trofeo.jpg" alt="Trofeo Premier League">
             </div>
             <div class="texto">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ducimus id, iusto explicabo maiores ipsam adipisci. Odio veniam, eius, similique excepturi in dolorum, magnam ipsum natus dicta sed quasi aspernatur.</p>
-            </div>    
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ducimus id, iusto explicabo maiores
+                    ipsam adipisci. Odio veniam, eius, similique excepturi in dolorum, magnam ipsum natus dicta sed
+                    quasi.</p>
+            </div>
         </div>
 
         <div class="imagen-index-right">
@@ -58,63 +68,79 @@
             </div>
 
             <div class="texto">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim impedit repellendus numquam praesentium. Dolor molestiae ad et saepe nobis quidem dolores porro fuga aliquam veniam, laudantium debitis dolorem, eius beatae.</p>
-            </div> 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim impedit repellendus numquam
+                    praesentium. Dolor molestiae ad et saepe nobis quidem dolores porro fuga aliquam veniam, laudantium
+                    debitis dolorem, eius beatae.</p>
+            </div>
         </div>
 
         <div class="imagen-index">
             <div class="imagen">
                 <img src="Imagenes/carabaocup-trofeo.jpg" alt="Trofeo Carabao Cup">
-            </div> 
+            </div>
             <div class="texto">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, delectus. Facilis quasi perferendis quis dolorum consequatur quaerat similique? Sed velit officia explicabo nemo eius neque ab ut accusantium placeat. Ducimus?</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, delectus. Facilis quasi perferendis
+                    quis dolorum consequatur quaerat similique? Sed velit officia explicabo nemo eius neque ab ut
+                    accusantium placeat. Ducimus?</p>
             </div>
         </div>
 
         <div class="imagen-index-right">
             <div class="imagen">
                 <img src="Imagenes/championship.jpg" alt="Trofeo Championship">
-            </div> 
+            </div>
             <div class="texto">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero excepturi ex facilis, voluptas perferendis reiciendis fugiat? Consectetur, reprehenderit vitae iste, asperiores eveniet consequuntur minus quo ab est, nesciunt animi nostrum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero excepturi ex facilis, voluptas
+                    perferendis reiciendis fugiat? Consectetur, reprehenderit vitae iste, asperiores eveniet
+                    consequuntur minus quo ab est, nesciunt animi.</p>
             </div>
         </div>
     </div>
-<!-- Videos Secundarios -->
+    <!-- Videos Secundarios -->
     <div class="grid-video">
         <div class="video-index video-premier">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/xxMKnO_lDvU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/xxMKnO_lDvU"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
         </div>
 
         <div class="video-index video-ascenso">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/KiVxwj_LcGg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/KiVxwj_LcGg"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
         </div>
-        
+
     </div>
 
-<!--Fin Videos Secundarios-->
+    <!--Fin Videos Secundarios-->
 
-<!--Pie de Pagina-->
+    <!--Pie de Pagina-->
     <footer class="pie-de-pagina">
         <p>Sobre nosotros</p>
         <div class="redes">
             <p>Redes</p>
             <a href="#">
                 <i class="fa-brands fa-instagram"></i>
-            </a> 
+            </a>
             <a href="#">
                 <i class="fa-brands fa-twitter"></i>
             </a>
         </div>
 
         <p>Todos los derechos reservados</p>
-        
+
         <div class="contacto">
             <p>contacto</p>
             <p>jstambullian@gmail.com</p>
             <p>011-4068-6907</p>
         </div>
     </footer>
-<!-- Fin Pie de Pagina-->
- </body>
+    <!-- Fin Pie de Pagina-->
+
+    <!-- script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+
 </html>
