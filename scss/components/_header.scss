@@ -1,0 +1,18 @@
+@import '../base/variables';
+
+
+header {
+    background-color: $bg-color-general;
+    nav {
+        ul {
+            li{
+                a{
+                    text-decoration: none;
+                    &:hover {
+                        color: orange;
+                    }
+                }
+            }
+        }
+    }
+}

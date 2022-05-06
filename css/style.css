@@ -1,4 +1,13 @@
-/* nesting o anidamiento */ 
+/* nesting o anidamiento */
+/* Variables */
+header {
+  background-color: orange;
+}
+header nav ul li a {
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  color: orange;
+}
 
 /*# sourceMappingURL=style.css.map */
- 
