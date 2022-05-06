@@ -1,0 +1,13 @@
+/* nesting o anidamiento */
+
+header {
+    nav {
+        ul {
+            li {
+                a{
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
