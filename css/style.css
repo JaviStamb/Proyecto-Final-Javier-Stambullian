@@ -1,13 +1,44 @@
 /* nesting o anidamiento */
 /* Variables */
 header {
-  background-color: orange;
+  background-color: #753e48;
 }
+
 header nav ul li a {
   text-decoration: none;
 }
+
 header nav ul li a:hover {
   color: orange;
+}
+
+.main-header {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.vinculo-texto {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 55px;
+}
+
+.vinculo-texto:hover {
+  animation: Titulo 2s;
+}
+
+@keyframes Titulo {
+  0% {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  100% {
+    font-size: 70px;
+    text-decoration: underline;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
