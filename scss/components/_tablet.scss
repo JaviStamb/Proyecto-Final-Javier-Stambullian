@@ -1,0 +1,129 @@
+body {
+    background-color: $page-color;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(2, 1fr);
+
+    div {
+        div {
+            p {
+                text-align: justify;
+
+                @media (min-width:451px) and (max-width:960px) {
+                    text-align: justify;
+                    font-size: 1rem;
+                }
+            }
+        }
+
+    }
+
+    @media (min-width:451px) and (max-width:960px) {
+        display: grid;
+        flex-direction: column;
+    }
+}
+
+
+.imagen-index {
+    width: 600px;
+    height: 300px;
+    border: 1px solid black;
+    font-size: 1rem;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(129, 129, 185);
+    justify-content: center;
+    transition: all 3s ease-out;
+
+    &:hover {
+        transform: scale(1.1) translateX(300px);
+        background-color: rgb(62, 62, 102);
+    }
+
+    @media (min-width:451px) and (max-width:960px) {
+        width: 430px;
+        height: 270px;
+        transition: all 3s ease-out;
+
+        &:hover {
+            transform: scale(1.1) translatex(200x);
+        }
+    }
+}
+
+.imagen-index-right {
+    width: 600px;
+    height: 300px;
+    border: 1px solid black;
+    font-size: 1rem;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(129, 129, 185);
+    justify-content: center;
+    transition: all 3s ease-out;
+
+    &:hover {
+        transform: scale(1.1) translateX(-300px);
+        background-color: rgb(62, 62, 102);
+    }
+
+    @media (min-width:451px) and (max-width:960px) {
+        width: 430px;
+        height: 270px;
+        transition: all 3s ease-out;
+
+        &:hover {
+            transform: scale(1.1) translatex(200x);
+        }
+    }
+}
+
+.imagen {
+    width: 100%;
+    height: 70%;
+    display: flex;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+@media (min-width:451px) and (max-width:960px) {
+    width: 100%;
+    height: 63%;
+    display: flex;
+    justify-content: center;
+}
+}
+
+.grid-video {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+
+    @media (min-width:451px) and (max-width:960px) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    div {
+        iframe {
+            @media (min-width:451px) and (max-width:960px) {
+                width: 420px;
+                height: 319px;
+                padding-bottom: 5px;
+            }
+        }
+    }
+}
+
+
+.fa-brands {
+    color: white;
+}
