@@ -3,8 +3,6 @@
 /* Paleta de colores */
 .main-header {
   padding: 15px;
-  display: flex;
-  justify-content: center;
   font-family: "Roboto", sans-serif;
   background-color: #753e48;
 }
@@ -39,6 +37,11 @@
 }
 .navbar a:hover {
   text-decoration: underline;
+}
+
+.main-header {
+  display: flex;
+  justify-content: center;
 }
 
 body {
@@ -91,7 +94,7 @@ body {
 }
 .imagen-index:hover {
   transform: scale(1.1) translateX(300px);
-  background-color: rgb(62, 62, 102);
+  background-color: rgb(129, 129, 185);
 }
 @media (max-width: 450px) {
   .imagen-index {
@@ -127,7 +130,7 @@ body {
 }
 .imagen-index-right:hover {
   transform: scale(1.1) translateX(-300px);
-  background-color: rgb(62, 62, 102);
+  background-color: rgb(129, 129, 185);
 }
 @media (max-width: 450px) {
   .imagen-index-right {
@@ -226,6 +229,11 @@ body {
 
 .fa-brands {
   color: white;
+}
+
+.main-header {
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */

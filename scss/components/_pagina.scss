@@ -1,5 +1,11 @@
+@import '../base/mapa';
+
+@import '../base/extends';
+
+@import '../base/mixin';
+
 body {
-    background-color: $page-color;
+    background-color: map-get($color, page )
 }
 
 .grid {
@@ -51,7 +57,7 @@ body {
 
     &:hover {
         transform: scale(1.1) translateX(300px);
-        background-color: rgb(62, 62, 102);
+        background-color: map-get($color, image-back );
     }
 
     @media (max-width:450px) {
@@ -87,7 +93,7 @@ body {
 
     &:hover {
         transform: scale(1.1) translateX(-300px);
-        background-color: rgb(62, 62, 102);
+        background-color: map-get($color, image-back );
     }
 
     @media (max-width:450px) {
@@ -138,8 +144,7 @@ body {
 .grid-video {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    display: flex;
-    justify-content: space-evenly;
+    @include flex (flex, space-evenly);
     margin: 10px;
 
     @media (max-width:450px) {

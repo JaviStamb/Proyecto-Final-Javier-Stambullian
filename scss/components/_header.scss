@@ -1,9 +1,9 @@
 @import '../base/variables';
 
+
 .main-header {
     padding: 15px;
-    display: flex;
-    justify-content: center;
+    @extend %flex;
     font-family: 'Roboto', sans-serif;
     background-color: $bg-color-header;
 }
